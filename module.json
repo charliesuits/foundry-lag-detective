@@ -1,0 +1,29 @@
+{
+  "id": "lag-detective",
+  "title": "Lag Detective",
+  "description": "Finds out why a Foundry session gets laggy. Watches frame rate, freezes, memory, GPU images, 3D Canvas, hooks, timers, listeners, sockets and errors all session; charges the time to the module responsible; spots counters that climb (leaks); and checks the machine, settings and scene for known causes. Includes a 30-second deep scan, before/after tests, a per-player check and automatic reports saved to the Data folder.",
+  "version": "1.1.0",
+  "authors": [
+    {
+      "name": "Charlie Suits",
+      "url": "https://github.com/charliesuits"
+    }
+  ],
+  "url": "https://github.com/charliesuits/foundry-lag-detective",
+  "manifest": "https://github.com/charliesuits/foundry-lag-detective/releases/latest/download/module.json",
+  "download": "https://github.com/charliesuits/foundry-lag-detective/releases/download/v1.1.0/module.zip",
+  "readme": "https://github.com/charliesuits/foundry-lag-detective#readme",
+  "bugs": "https://github.com/charliesuits/foundry-lag-detective/issues",
+  "license": "LICENSE",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    "styles/lag-detective.css"
+  ],
+  "socket": true
+}
